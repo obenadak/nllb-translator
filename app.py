@@ -35,7 +35,7 @@ def initialize_translator():
         except Exception as e:
             yield f"<p style='color:#f87171;'>❌ HATA: Model yüklenemedi: {e}</p>", gr.Button(interactive=False)
     else:
-        yield "<p style='color:#4ade80;'>✅ Çeviri zaten hazır.</p>", gr.Button(interactive=True)
+        yield "<p style='color:#4ade80;'>✅ Çeviri motoru hazır.</p>", gr.Button(interactive=True)
 
 def translate_text(text, source_lang_ui, target_lang_ui):
     """Verilen metni kaynak dilden hedef dile çevirir."""

@@ -10,6 +10,14 @@ Bu proje, Meta AI tarafından geliştirilen `facebook/nllb-200-distilled-600M` m
 - **Dinamik Yükleme:** Uygulama açılırken modelin yüklenme durumunu gösterir.
 - **Özel Tema:** Modern ve karanlık bir tema ile şık bir görünüm.
 
+## Ekran Görüntüleri
+
+### Çeviri Aracının Hazırlanıyor Aşaması
+![Hazırlanıyor](screenshots/hazirlaniyor.png)
+
+### Çeviri Aracının Hazır Olduğu Aşama
+![Hazır](screenshots/hazir.png)
+
 ## Yerel Makinede Çalıştırma
 
 1.  Projeyi klonlayın:
